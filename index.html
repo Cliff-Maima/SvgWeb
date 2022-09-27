@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<title>Thee-icons</title>
+
+<link rel="stylesheet" href="style.css">
+<body>
+    <div id="main">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo3.png">
+            </div>
+            <nav>
+                <ul>
+                    <li>Studio</li>
+                    <li>Partners</li>
+                    <li>Media</li>
+                    <li>User</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="circle-box">
+            <svg height="402" width="402">
+                <circle r="200" cx="201" cy="201" stroke-width="1px" stroke="gray"
+                fill="none"></circle>
+            </svg>
+            <svg height="402" width="402">
+                <circle r="200" cx="201" cy="201" stroke-width="1px" stroke="#fff"
+                fill="none" id="svgCircle"></circle>
+            </svg>
+            <div>
+                <span id="step1"></span>
+                <span id="step2"></span>
+                <span id="step3"></span>
+                <span id="step4"></span>
+                <span id="step5"></span>
+            </div>
+            <div class="user-box" id="userBox">
+                <div class="user">
+                    <img src="images/p1.jpg" alt="">
+                    <h1>Vishy Adriel</h1>
+                    <p>Follow me in all platforms by pressing the below
+                        icons to get my lasted updates
+                    </p>
+                    <div class="social-links">
+                        <img src="images/face.jpg" alt="">
+                        <img src="images/insta.jpg" alt="">
+                        <img src="images/twitt.jpg" alt="">
+                        <img src="images/skype.jpg" alt="">
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="images/p2.jpg" alt="">
+                    <h1>Dirty Phoenix</h1>
+                    <p>Click the below icons to have a taste of
+                        my wanting desires
+                    
+                    </p>
+                    <div class="social-links">
+                        <img src="images/face.jpg" alt="">
+                        <img src="images/insta.jpg" alt="">
+                        <img src="images/twitt.jpg" alt="">
+                        <img src="images/skype.jpg" alt="">
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="images/p3.jpg" alt="">
+                    <h1>Justin Bieber</h1>
+                    <p>Follow me in the below platforms to getmy latest 
+                        jams at your wanting and also be updated ASAP
+                    </p>
+                    <div class="social-links">
+                        <img src="images/face.jpg" alt="">
+                        <img src="images/insta.jpg" alt="">
+                        <img src="images/twitt.jpg" alt="">
+                        <img src="images/skype.jpg" alt="">
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="images/p4.jpg" alt="">
+                    <h1>Juice Wrld</h1>
+                    <p>Truly legends never die.I never bother with ni$$as
+                        buh I dive in her pu$$y like a lake
+                    </p>
+                    <div class="social-links">
+                        <img src="images/face.jpg" alt="">
+                        <img src="images/insta.jpg" alt="">
+                        <img src="images/twitt.jpg" alt="">
+                        <img src="images/skype.jpg" alt="">
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="images/p5.jpg" alt="">
+                    <h1>Holy Crap</h1>
+                    <p>Always take every step in your way into
+                        consideration coz you don't know what's comming next
+                    </p>
+                    <div class="social-links">
+                        <img src="images/face.jpg" alt="">
+                        <img src="images/insta.jpg" alt="">
+                        <img src="images/twitt.jpg" alt="">
+                        <img src="images/skype.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    var svgCircle = document.getElementById("svgCircle");
+    var step1 = document.getElementById("step1");
+    var step2 = document.getElementById("step2");
+    var step3 = document.getElementById("step3");
+    var step4 = document.getElementById("step4");
+    var step5 = document.getElementById("step5");
+    var main = document.getElementById("main");
+    var userBox = document.getElementById("userBox");
+
+    main.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back1.jpg)"
+
+
+    step1.addEventListener('click', ()=>{
+        svgCircle.style.strokeDashoffset = "1004";
+        main.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back2.jpg)"
+        userBox.style.top = "-350px"
+    }); 
+    step2.addEventListener('click', ()=>{
+        svgCircle.style.strokeDashoffset = "753";
+        main.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back3.jpg)"
+        userBox.style.top = "-800px"
+    });
+    step3.addEventListener('click', ()=>{
+        svgCircle.style.strokeDashoffset = "502";
+        main.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back4.jpg)"
+        userBox.style.top = "-1250px"
+    });
+    step4.addEventListener('click', ()=>{
+        svgCircle.style.strokeDashoffset = "251";
+        main.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back5.jpg)"
+        userBox.style.top = "-1700px"
+    });
+    step5.addEventListener('click', ()=>{
+        svgCircle.style.strokeDashoffset = "0";
+        main.style.backgroundImage = "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/back1.jpg)"
+        userBox.style.top = "100px"
+    });
+</script>
+
+</body>
+</html>
